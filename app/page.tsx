@@ -141,7 +141,7 @@ function Hero() {
           博子
         </h1>
         <p className="name-en-sub fu d2" style={{ marginBottom: '2.2rem' }}>
-          B &nbsp; O &nbsp; Z &nbsp; I
+          B &nbsp; O &nbsp; Z
         </p>
 
         {/* Role pills */}
@@ -648,7 +648,7 @@ function Footer() {
           color: 'rgba(0,0,0,0.24)',
         }}
       >
-        博子 · Bozi &ensp;·&ensp; 杭州 2026 &ensp;·&ensp; Built with Next.js
+        博子 · Boz &ensp;·&ensp; 杭州 2026 &ensp;·&ensp; Built with Next.js
       </p>
     </footer>
   )

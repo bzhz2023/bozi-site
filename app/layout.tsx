@@ -10,10 +10,10 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: '博子 · Bozi',
+  title: '博子 · Boz',
   description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
   openGraph: {
-    title: '博子 · Bozi',
+    title: '博子 · Boz',
     description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
     type: 'website',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary',
     site: '@bzfree2003',
     creator: '@bzfree2003',
-    title: '博子 · Bozi',
+    title: '博子 · Boz',
     description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
   },
 }
