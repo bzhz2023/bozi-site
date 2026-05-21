@@ -11,10 +11,10 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: '博子 · Bozi',
-  description: 'Android 工程师 / AI 产品探索者 / 出海实践者 · 杭州',
+  description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
   openGraph: {
     title: '博子 · Bozi',
-    description: 'Android 工程师 / AI 产品探索者 / 出海实践者 · 杭州',
+    description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
     type: 'website',
   },
   twitter: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     site: '@bzfree2003',
     creator: '@bzfree2003',
     title: '博子 · Bozi',
-    description: 'Android 工程师 / AI 产品探索者 / 出海实践者 · 杭州',
+    description: '亚马逊运营 / AI 产品探索者 / 出海实践者 · 杭州',
   },
 }
 

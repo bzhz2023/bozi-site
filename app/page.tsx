@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div style={{ background: '#07080E', minHeight: '100vh' }}>
+    <div style={{ background: '#F2F1ED', minHeight: '100vh' }}>
       <Nav />
       <Hero />
       <main
@@ -50,14 +50,14 @@ function Nav() {
           style={{
             fontSize: '13.5px',
             fontWeight: 300,
-            color: 'rgba(255,255,255,0.88)',
+            color: 'rgba(0,0,0,0.78)',
             letterSpacing: '0.04em',
             paddingRight: '0.6rem',
           }}
         >
           博子
         </span>
-        <span style={{ color: 'rgba(255,255,255,0.14)', fontSize: '10px', paddingRight: '0.35rem' }}>
+        <span style={{ color: 'rgba(0,0,0,0.14)', fontSize: '10px', paddingRight: '0.35rem' }}>
           ·
         </span>
         <a href="#about" className="nav-link" style={{ padding: '0.1rem 0.5rem' }}>关于</a>
@@ -88,11 +88,11 @@ function Hero() {
       <div
         className="orb"
         style={{
-          width: 520,
-          height: 520,
-          background: 'radial-gradient(circle, rgba(60,110,255,0.11) 0%, transparent 70%)',
-          top: '-60px',
-          left: '-80px',
+          width: 560,
+          height: 560,
+          background: 'radial-gradient(circle, rgba(60,110,255,0.07) 0%, transparent 70%)',
+          top: '-80px',
+          left: '-100px',
           filter: 'blur(0px)',
           animation: 'orb-a 18s ease-in-out infinite alternate',
         }}
@@ -100,11 +100,11 @@ function Hero() {
       <div
         className="orb"
         style={{
-          width: 420,
-          height: 420,
-          background: 'radial-gradient(circle, rgba(130,60,210,0.09) 0%, transparent 70%)',
+          width: 440,
+          height: 440,
+          background: 'radial-gradient(circle, rgba(130,60,210,0.06) 0%, transparent 70%)',
           bottom: '-80px',
-          right: '-60px',
+          right: '-80px',
           filter: 'blur(0px)',
           animation: 'orb-b 22s ease-in-out infinite alternate',
         }}
@@ -112,9 +112,9 @@ function Hero() {
       <div
         className="orb"
         style={{
-          width: 260,
-          height: 260,
-          background: 'radial-gradient(circle, rgba(100,160,240,0.06) 0%, transparent 65%)',
+          width: 280,
+          height: 280,
+          background: 'radial-gradient(circle, rgba(255,160,50,0.05) 0%, transparent 65%)',
           top: '40%',
           left: '55%',
           filter: 'blur(0px)',
@@ -155,7 +155,7 @@ function Hero() {
             marginBottom: '2.4rem',
           }}
         >
-          <span className="glass-pill">Android 工程师</span>
+          <span className="glass-pill">亚马逊运营</span>
           <span className="glass-pill">AI 产品探索者</span>
           <span className="glass-pill">出海实践者</span>
         </div>
@@ -168,7 +168,7 @@ function Hero() {
           className="fu d5"
           style={{
             fontSize: '13px',
-            color: 'rgba(255,255,255,0.28)',
+            color: 'rgba(0,0,0,0.26)',
             letterSpacing: '0.01em',
             marginTop: '0.5rem',
           }}
@@ -182,7 +182,7 @@ function Hero() {
           style={{
             marginTop: '3.5rem',
             fontSize: '11px',
-            color: 'rgba(255,255,255,0.18)',
+            color: 'rgba(0,0,0,0.18)',
             letterSpacing: '0.06em',
           }}
         >
@@ -221,18 +221,17 @@ function About() {
             背景
           </p>
           <p className="body" style={{ lineHeight: 1.85 }}>
-            在杭州做了将近十年 Android 应用开发，在浙江大华工作至今。教务员出身，Java 培训机构边学边教，自学进了移动互联网。这条路从来不是计划好的，但每一步都踩扎实了。
+            十年 Android 应用开发，浙江大华工作至今。去年正式转型，现在全职做亚马逊跨境运营——发货、广告、选品、Listing，在真实店铺里边学边做。教务员出身，Java 培训班自学进移动互联网，这条路从来不是规划好的。
           </p>
           <p
             style={{
               fontSize: '12.5px',
-              color: 'rgba(255,255,255,0.22)',
+              color: 'rgba(0,0,0,0.28)',
               marginTop: '0.65rem',
               lineHeight: 1.7,
             }}
           >
-            Android Engineer · ~10yr · Zhejiang Dahua, Hangzhou.
-            Administration → Java → Mobile → AI Products.
+            Former Android Engineer · 10yr · Now full-time Amazon seller ops · Hangzhou.
           </p>
         </div>
 
@@ -241,12 +240,12 @@ function About() {
             方法论
           </p>
           <p className="body" style={{ lineHeight: 1.85 }}>
-            先 MVP 再迭代，带真实项目去学，把跑通的方法整理成 SOP。比身边人早进新领域，踩坑然后沉淀。Web3、出海 SEO、鸿蒙、AI 工具——每次都是从"先做一件能用的小东西"开始。
+            先 MVP 再迭代，带真实项目去学，把跑通的方法整理成 SOP。比身边人早进新领域，踩坑然后沉淀。Web3、鸿蒙、出海 SEO、AI 工具——每次都是从"先做一件能用的小东西"开始。
           </p>
           <p
             style={{
               fontSize: '12.5px',
-              color: 'rgba(255,255,255,0.22)',
+              color: 'rgba(0,0,0,0.28)',
               marginTop: '0.65rem',
               lineHeight: 1.7,
             }}
@@ -282,7 +281,7 @@ function Work() {
         style={{
           marginBottom: '0.85rem',
           padding: 'clamp(1.5rem, 3.5vw, 2.25rem)',
-          borderTop: '1px solid rgba(120,170,255,0.25)',
+          borderTop: '1px solid rgba(80,120,255,0.20)',
           position: 'relative',
           overflow: 'hidden',
         }}
@@ -295,7 +294,7 @@ function Work() {
             left: 0,
             right: 0,
             height: '80px',
-            background: 'linear-gradient(180deg, rgba(100,155,255,0.06) 0%, transparent 100%)',
+            background: 'linear-gradient(180deg, rgba(80,130,255,0.05) 0%, transparent 100%)',
             pointerEvents: 'none',
           }}
         />
@@ -315,7 +314,7 @@ function Work() {
               style={{
                 fontSize: 'clamp(20px, 3vw, 26px)',
                 fontWeight: 300,
-                color: 'rgba(255,255,255,0.95)',
+                color: 'rgba(0,0,0,0.84)',
                 letterSpacing: '-0.01em',
               }}
             >
@@ -336,7 +335,7 @@ function Work() {
         <p
           style={{
             fontSize: '14px',
-            color: 'rgba(255,255,255,0.55)',
+            color: 'rgba(0,0,0,0.52)',
             lineHeight: 1.8,
             marginBottom: '1.25rem',
             maxWidth: '520px',
@@ -347,7 +346,7 @@ function Work() {
         <p
           style={{
             fontSize: '12.5px',
-            color: 'rgba(255,255,255,0.22)',
+            color: 'rgba(0,0,0,0.26)',
             marginBottom: '1.25rem',
             maxWidth: '480px',
           }}
@@ -387,7 +386,7 @@ function Work() {
               style={{
                 fontSize: '17px',
                 fontWeight: 300,
-                color: 'rgba(255,255,255,0.9)',
+                color: 'rgba(0,0,0,0.82)',
                 letterSpacing: '-0.01em',
               }}
             >
@@ -398,7 +397,7 @@ function Work() {
           <p
             style={{
               fontSize: '13.5px',
-              color: 'rgba(255,255,255,0.45)',
+              color: 'rgba(0,0,0,0.46)',
               lineHeight: 1.8,
               marginBottom: '0.75rem',
             }}
@@ -406,7 +405,7 @@ function Work() {
             2026 年核心项目：做 12 个出海工具站，沉淀一套可复用 SOP。AI 视频工具站是首个真实验证样本。
           </p>
           <p
-            style={{ fontSize: '12px', color: 'rgba(255,255,255,0.20)', lineHeight: 1.7 }}
+            style={{ fontSize: '12px', color: 'rgba(0,0,0,0.24)', lineHeight: 1.7 }}
           >
             12 overseas web tools · Reusable SOP · First validated sample in production.
           </p>
@@ -429,7 +428,7 @@ function Work() {
               style={{
                 fontSize: '17px',
                 fontWeight: 300,
-                color: 'rgba(255,255,255,0.9)',
+                color: 'rgba(0,0,0,0.82)',
                 letterSpacing: '-0.01em',
               }}
             >
@@ -440,7 +439,7 @@ function Work() {
           <p
             style={{
               fontSize: '13.5px',
-              color: 'rgba(255,255,255,0.45)',
+              color: 'rgba(0,0,0,0.46)',
               lineHeight: 1.8,
               marginBottom: '0.75rem',
             }}
@@ -448,7 +447,7 @@ function Work() {
             把运营学习工程化：AI 半自动化 Listing 文案、竞品分析、广告判断，在真实店铺中验证并沉淀 SOP。
           </p>
           <p
-            style={{ fontSize: '12px', color: 'rgba(255,255,255,0.20)', lineHeight: 1.7 }}
+            style={{ fontSize: '12px', color: 'rgba(0,0,0,0.24)', lineHeight: 1.7 }}
           >
             AI-assisted Listing · Competitor analysis · Ad ops · Real store validation.
           </p>
@@ -502,13 +501,13 @@ function Now() {
               display: 'flex',
               gap: '1rem',
               padding: '0.85rem 0',
-              borderBottom: i < items.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none',
+              borderBottom: i < items.length - 1 ? '1px solid rgba(0,0,0,0.06)' : 'none',
             }}
           >
             <span
               style={{
                 fontSize: '12px',
-                color: 'rgba(255,255,255,0.18)',
+                color: 'rgba(0,0,0,0.20)',
                 flexShrink: 0,
                 paddingTop: '0.1rem',
                 fontVariantNumeric: 'tabular-nums',
@@ -517,7 +516,7 @@ function Now() {
             >
               {String(i + 1).padStart(2, '0')}
             </span>
-            <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.52)', lineHeight: 1.78, margin: 0 }}>
+            <p style={{ fontSize: '14px', color: 'rgba(0,0,0,0.52)', lineHeight: 1.78, margin: 0 }}>
               {item}
             </p>
           </div>
@@ -544,7 +543,7 @@ function Connect() {
       <p
         style={{
           fontSize: '13.5px',
-          color: 'rgba(255,255,255,0.30)',
+          color: 'rgba(0,0,0,0.32)',
           marginBottom: '2rem',
         }}
       >
@@ -586,7 +585,7 @@ function Connect() {
           </a>
           <div className="contact-row" style={{ cursor: 'default' }}>
             <span className="contact-type">WeChat</span>
-            <span className="contact-value" style={{ color: 'rgba(255,255,255,0.30)', fontSize: '13px' }}>
+            <span className="contact-value" style={{ color: 'rgba(0,0,0,0.30)', fontSize: '13px' }}>
               扫右侧二维码
             </span>
           </div>
@@ -596,12 +595,12 @@ function Connect() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
           <div
             style={{
-              width: 116,
-              height: 116,
+              width: 160,
+              height: 160,
               borderRadius: '14px',
               overflow: 'hidden',
-              border: '1px solid rgba(255,255,255,0.10)',
-              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(0,0,0,0.08)',
+              background: '#ffffff',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -612,7 +611,7 @@ function Connect() {
               alt="微信二维码"
               width={160}
               height={160}
-              style={{ objectFit: 'contain', opacity: 0.9 }}
+              style={{ objectFit: 'contain' }}
             />
           </div>
           <p
@@ -620,7 +619,7 @@ function Connect() {
               fontSize: '10px',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
-              color: 'rgba(255,255,255,0.22)',
+              color: 'rgba(0,0,0,0.26)',
             }}
           >
             微信扫一扫
@@ -639,7 +638,7 @@ function Footer() {
       style={{
         textAlign: 'center',
         padding: '2.5rem 1.5rem 3rem',
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderTop: '1px solid rgba(0,0,0,0.07)',
         marginTop: '2rem',
       }}
     >
@@ -648,7 +647,7 @@ function Footer() {
           fontSize: '11px',
           letterSpacing: '0.14em',
           textTransform: 'uppercase',
-          color: 'rgba(255,255,255,0.18)',
+          color: 'rgba(0,0,0,0.24)',
         }}
       >
         博子 · Bozi &ensp;·&ensp; 杭州 2026 &ensp;·&ensp; Built with Next.js
