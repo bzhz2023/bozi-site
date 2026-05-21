@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" fill="#F4F1EB"/>
+  <rect x="8" y="8" width="40" height="40" rx="3" fill="none" stroke="#C8C4BC" stroke-width="3"/>
+  <rect x="16" y="16" width="24" height="24" rx="1" fill="#C8C4BC"/>
+  <rect x="72" y="8" width="40" height="40" rx="3" fill="none" stroke="#C8C4BC" stroke-width="3"/>
+  <rect x="80" y="16" width="24" height="24" rx="1" fill="#C8C4BC"/>
+  <rect x="8" y="72" width="40" height="40" rx="3" fill="none" stroke="#C8C4BC" stroke-width="3"/>
+  <rect x="16" y="80" width="24" height="24" rx="1" fill="#C8C4BC"/>
+  <rect x="56" y="8" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="56" y="18" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="56" y="28" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="56" y="38" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="72" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="82" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="92" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="102" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="8" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="18" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="28" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="38" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="56" y="56" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="72" y="72" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="82" y="82" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="92" y="72" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="102" y="82" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="72" y="92" width="6" height="6" fill="#C8C4BC"/>
+  <rect x="102" y="102" width="6" height="6" fill="#C8C4BC"/>
+  <text x="60" y="114" text-anchor="middle" font-family="system-ui" font-size="6" fill="#A09B90">微信扫码</text>
+</svg>
