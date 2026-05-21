@@ -608,11 +608,11 @@ function Connect() {
             }}
           >
             <Image
-              src="/wechat-qr.svg"
+              src="/wechat-qr.png"
               alt="微信二维码"
-              width={116}
-              height={116}
-              style={{ objectFit: 'cover', opacity: 0.7 }}
+              width={160}
+              height={160}
+              style={{ objectFit: 'contain', opacity: 0.9 }}
             />
           </div>
           <p
