@@ -585,9 +585,7 @@ function Connect() {
           </a>
           <div className="contact-row" style={{ cursor: 'default' }}>
             <span className="contact-type">WeChat</span>
-            <span className="contact-value" style={{ color: 'rgba(0,0,0,0.30)', fontSize: '13px' }}>
-              扫右侧二维码
-            </span>
+            <span className="contact-value">bz_hz2014</span>
           </div>
         </div>
 
