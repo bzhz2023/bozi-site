@@ -221,7 +221,7 @@ function About() {
             背景
           </p>
           <p className="body" style={{ lineHeight: 1.85 }}>
-            十年 Android 应用开发，浙江大华工作至今。去年正式转型，现在全职做亚马逊跨境运营——发货、广告、选品、Listing，在真实店铺里边学边做。教务员出身，Java 培训班自学进移动互联网，这条路从来不是规划好的。
+            在浙江大华做了 12 年 Android 应用开发，去年离职创业。现在在一家亚马逊跨境电商创业公司全职创业——发货、广告、选品、Listing，在真实店铺里边打边学。教务员出身，Java 培训班自学进移动互联网，这条路从来不是规划好的。
           </p>
           <p
             style={{
@@ -231,7 +231,7 @@ function About() {
               lineHeight: 1.7,
             }}
           >
-            Former Android Engineer · 10yr · Now full-time Amazon seller ops · Hangzhou.
+            Former Android Engineer · 12yr · Now building an Amazon cross-border e-commerce startup · Hangzhou.
           </p>
         </div>
 
